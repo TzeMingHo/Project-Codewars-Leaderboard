@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test",
     "build": "mkdir -p dist && cp index.html dist/index.html"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/TzeMingHo/Project-Codewars-Leaderboard/issues"
   },
-  "homepage": "https://github.com/TzeMingHo/Project-Codewars-Leaderboard#readme"
+  "homepage": "https://github.com/TzeMingHo/Project-Codewars-Leaderboard#readme",
+  "dependencies": {
+    "nock": "^14.0.10"
+  }
 }
